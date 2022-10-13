@@ -26,3 +26,5 @@ Click on green button "Code" and click on "Download ZIP" in menu. Wait while arc
   <li>- Attr is tabs element attribute "frame_name"</li>
   <li>- Before is previous tabs element</li>
 </ul>
+<h2>4. Preview</h2>
+See that: <a href="https://dadencukillia.github.io/GrouplyHTML/blank.html">Preview GrouplyHTML</a>!

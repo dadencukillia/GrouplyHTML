@@ -1,18 +1,18 @@
-.group>.panel {
-    box-sizing: border-box;
+* {
     margin: 0;
+}
+body {
+    box-sizing: border-box;
+}
+.group>.panel {
     display: flex;
     flex-direction: row;
     gap: 1px;
 }
 .group:not(.full)>.panel {
-    box-sizing: border-box;
-    margin: 0;
     padding: 0 10px;
 }
 .group .panel span {
-    box-sizing: border-box;
-    margin: 0;
     width: fit-content;
     padding: 5px;
     background-color: rgb(181, 181, 181);
@@ -20,23 +20,16 @@
     cursor: pointer;
 }
 .group .panel span.active {
-    box-sizing: border-box;
-    margin: 0;
     background-color: rgb(230, 230, 230);
 }
 .group>.frame {
-    box-sizing: border-box;
-    margin: 0;
     display: block;
     padding: 10px;
     background-color: rgb(230, 230, 230);
 }
 .group:not(.full)>.frame {
-    box-sizing: border-box;
     margin: 0 10px;
 }
 .group .frame>div {
-    box-sizing: border-box;
-    margin: 0;
     display: none;
 }
